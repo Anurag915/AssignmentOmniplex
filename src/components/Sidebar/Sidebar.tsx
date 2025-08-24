@@ -27,6 +27,7 @@ import Plugin from "../../../public/svgs/sidebar/Plugin_Active.svg";
 import PluginInactive from "../../../public/svgs/sidebar/Plugin_Inactive.svg";
 import User from "../../../public/svgs/sidebar/User.svg";
 import Collapse from "../../../public/svgs/sidebar/Collapse.svg";
+import CheckoutButton from "../CheckoutButton";
 
 const Sidebar = () => {
   const router = useRouter();
@@ -105,6 +106,7 @@ const Sidebar = () => {
 
   return (
     <>
+      <CheckoutButton productId="price_1Rzh1TGaUK7FISQTXBlSPa8Y" />
       <div className={styles.header}>
         <div onClick={toggleSidebar} className={styles.menu}>
           <Image priority={true} src={Menu} alt="Menu" width={24} height={24} />
