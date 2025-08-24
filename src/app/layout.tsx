@@ -5,7 +5,6 @@ import { Providers } from "./providers";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import CheckoutButton from "@/components/CheckoutButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
