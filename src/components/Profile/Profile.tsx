@@ -12,6 +12,7 @@ import { resetChat } from "@/store/chatSlice";
 import { resetAuth, selectUserDetailsState } from "@/store/authSlice";
 
 import User from "../../../public/svgs/sidebar/User.svg";
+import CheckoutButton from "../CheckoutButton";
 
 type Props = {
   close: () => void;
@@ -67,7 +68,10 @@ const Plugins = (props: Props) => {
               <div className={styles.profileText}>{userDetails.email}</div>
             </div>
           </div>
+
+
           <div className={styles.bottomContainer}>
+            <CheckoutButton  productId="price_1Rzh1TGaUK7FISQTXBlSPa8Y" />
             <div onClick={handleLogout} className={styles.button}>
               Log Out
             </div>

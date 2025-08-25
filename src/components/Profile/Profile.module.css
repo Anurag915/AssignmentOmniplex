@@ -77,7 +77,13 @@
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   border: 1px solid #2e2e2e;
+
+  white-space: nowrap;      /* keep text in one line */
+  overflow: hidden;         /* hide overflow text */
+  text-overflow: ellipsis;  /* show "..." when text overflows */
+  display: block;           /* required for ellipsis to work */
 }
+
 .button {
   width: 100%;
   padding: 6px 12px;

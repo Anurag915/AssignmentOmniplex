@@ -106,7 +106,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <CheckoutButton productId="price_1Rzh1TGaUK7FISQTXBlSPa8Y" />
+      {/* <CheckoutButton productId="price_1Rzh1TGaUK7FISQTXBlSPa8Y" /> */}
 
       <div className={styles.header}>
         <div onClick={toggleSidebar} className={styles.menu}>
